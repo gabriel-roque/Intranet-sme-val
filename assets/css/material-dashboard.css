@@ -15,6 +15,14 @@
 
 /*     brand Colors              */
 
+
+
+#logoDash{
+    width: 200px;
+    /*height: 100%;*/
+    margin-left: 15px;
+}
+
 .card {
   font-size: .875rem;
 }
