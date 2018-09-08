@@ -5,4 +5,10 @@ Além dos ramais internos da SME.
 
 ![apm](https://img.shields.io/badge/intranet--sme-1.0-blue.svg)
 
+## Home
+
 ![home](https://i.imgur.com/zQrN3Xn.jpg)
+
+## Page View
+
+![pgv](https://i.imgur.com/FLBHtsV.jpg)
