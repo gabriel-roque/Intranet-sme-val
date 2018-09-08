@@ -12,3 +12,7 @@ Além dos ramais internos da SME.
 ## Page View
 
 ![pgv](https://i.imgur.com/FLBHtsV.jpg)
+
+## Ramal
+
+![rml](https://i.imgur.com/GxhvDcN.jpg)
