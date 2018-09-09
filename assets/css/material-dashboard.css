@@ -1030,6 +1030,14 @@ pre code {
   margin-left: -15px;
 }
 
+.wrapper{
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
