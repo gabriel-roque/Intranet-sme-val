@@ -19,9 +19,15 @@
 
 #logoDash{
     width: 200px;
-    /*height: 100%;*/
     margin-left: 15px;
 }
+
+#cardHome{
+  width: 600px;
+  margin: auto;
+}
+
+
 
 .card {
   font-size: .875rem;
@@ -1016,7 +1022,7 @@ pre code {
 }
 
 .container-fluid {
-  width: 100%;
+  width: 70vh;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1030,9 +1036,9 @@ pre code {
   margin-left: -15px;
 }
 
-.wrapper{
-  height: 100%;
-  min-height: 100%;
+.container-fluid .header{
+  height: 50%;
+  min-height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14433,7 +14439,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 .wrapper {
   position: relative;
   top: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 .sidebar {
@@ -14849,9 +14855,9 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .main-panel>.content {
-  margin-top: 70px;
+  margin-top: 10px;
   padding: 30px 15px;
-  min-height: calc(100vh - 123px);
+  width: auto;
 }
 
 .main-panel>.footer {
