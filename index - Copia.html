@@ -170,16 +170,20 @@
   </div>
 
   <div class="main-panel">
+
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+      <div class="content">
+          <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top" id="cabecalho">
 
           <!-- Titulo -->
-          <div class="container-fluid" id="cabecalho">
+          <div class="container-fluid">
 
               <div class="navbar-wrapper">
-                  <span>Secretaria de Educacao - Valparaiso</span>
+                  <h3 id="secretaria">Secretaria de Educação - Valparaíso</h3>
               </div>
-                <!--NAO SEI NO QUE ESTA AFETANDO AINDA NA GRID-->
+                <!-- Menu lateral resposivo-->
               <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
               <span class="sr-only">Toggle navigation</span>
               <span class="navbar-toggler-icon icon-bar"></span>
@@ -201,38 +205,32 @@
           </div>
 
       </nav>
+
+          </div>
+      </div>
       <!-- End Navbar -->
 
-    <!-- Mensagem Central-->
-    <div class="content">
-          <div class="container-fluid">
-              <div class="wrapper">
-                  <h3 class="header">Seja bem vindo!</h3>
-              </div>
-          </div>
-    </div>
-
-
-    <!-- Slide and calender -->
+      <!-- Slide and calender -->
       <div class="content">
           <div class="container-fluid" id="center">
 
               <div class="row" id="center">
-                  <div class="col-md-8" >
+                    <!-- Slide obs: 700px x 400px-->
+                  <div class="col-md-8">
 
                       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
 
                               <div class="carousel-item active">
-                                  <img class="d-block w-100" src="https://diviweb.com.br/wp-content/uploads/2018/01/educa%C3%A7%C3%A3o_2.jpg" alt="First slide">
+                                  <img class="d-block w-100" src="http://www.maringa.com/noticias/imagens/18868_noticias-novo-web.jpg" alt="First slide">
                               </div>
 
                               <div class="carousel-item">
-                                  <img class="d-block w-100" src="https://images.unsplash.com/photo-1506361797048-46a149213205?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=493e200df17b54d1ef10eb61e1df148a&w=1000&q=80" alt="Second slide">
+                                  <img class="d-block w-100" src="https://replicario.com.br/wp-content/uploads/2018/07/concurso-see-sp-2.jpg" alt="Second slide">
                               </div>
 
                               <div class="carousel-item">
-                                  <img class="d-block w-100" src="https://images.unsplash.com/photo-1506361797048-46a149213205?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=493e200df17b54d1ef10eb61e1df148a&w=1000&q=80" alt="Third slide">
+                                  <img class="d-block w-100" src="https://madrepaulabh.com.br/wp-content/uploads/2017/10/DESTACADA-EDUCACAO-BRASIL.jpg" alt="Third slide">
                               </div>
                           </div>
 
@@ -249,7 +247,8 @@
                       </div>
 
                   </div>
-                  <div class="col-md-2">
+                  <!-- Calendario -->
+                  <div class="col-md-4">
 
                       <div class="card" style="width: 20rem;">
                           <div class="card-body">
@@ -262,52 +261,45 @@
                       </div>
 
                   </div>
-              </div>
 
+              </div>
           </div>
       </div>
 
-
-    <!-- Cards -->
+      <!-- Cards -->
       <div class="content">
           <div class="container-fluid" id="center">
 
-              <div class="row" id="center">
-                  <div class="col-md-4" >
-
-                      <div class="card" style="width: 20rem;">
-                          <div class="card-body">
-                              <h4 class="card-title">Card title</h4>
-                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
-                          </div>
-                      </div>
-
-                  </div>
+              <div class="row" id="">
+                  <!-- Quem somos-->
                   <div class="col-md-4">
 
                       <div class="card" style="width: 20rem;">
                           <div class="card-body">
-                              <h4 class="card-title">Card title</h4>
-                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                              <h3 class="card-title">Quem somos</h3>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
                           </div>
                       </div>
 
                   </div>
+                  <!-- Nossa missão -->
                   <div class="col-md-4">
 
                       <div class="card" style="width: 20rem;">
                           <div class="card-body">
-                              <h4 class="card-title">Card title</h4>
-                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                              <h3 class="card-title">Nossa Missão</h3>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                          </div>
+                      </div>
+
+                  </div>
+                  <!-- Nossa Inspiração -->
+                  <div class="col-md-4">
+
+                      <div class="card" style="width: 20rem;">
+                          <div class="card-body">
+                              <h3 class="card-title">Nosso Inspiração</h3>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           </div>
                       </div>
 
@@ -317,30 +309,34 @@
         </div>
       </div>
 
-
-      <!--Footer -->
+      <!--Footer-->
       <footer class="footer">
-          <div class="container-fluid">
 
-              <div class="copyright float">
-                  <script>
-                      document.write(new Date().getFullYear())
-                  </script>
-                  <a> - SME TI</a>
+          <div class="container-fluid">
+          <div class="dev">
+
+                  <p>©
+                      <script>
+                          document.write(new Date().getFullYear())
+                      </script>
+
+                      Secretaria de Educação</p>
+
+                  <a class="smeti">
+
+                      <span>
+                        <span id="dev">DESENVOLVIDO POR</span>
+                        <img class="logo-dev" src="assets/img/sme-ti-logo.png">
+                      </span>
+
+                  </a>
               </div>
           </div>
+
       </footer>
+
+
   </div>
-
-  <!-- Centro da pagina-->
-
-
-
-
-
-
-
-
 
 
   <!--   Core JS Files   -->
@@ -356,7 +352,6 @@
   <script src="assets/js/plugins/bootstrap-notify.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
-      <script src="teste.html" type="text/javascript"></script>
 
 </body>
 
