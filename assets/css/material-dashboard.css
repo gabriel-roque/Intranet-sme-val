@@ -19,12 +19,22 @@
 }
 
 #dev{
-  font-family: "Bebas Neue";
-  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
 }
 
 #secretaria{
-    padding-left: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 20px;
+}
+
+#cabecalho{
+  height: 50px;
+}
+
+#tabelaRamal{
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
 
 .logo-dev{
@@ -14380,6 +14390,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   /* Safari */
   /* Safari 6.1+ */
   display: flex;
+
 }
 
 .footer ul {
