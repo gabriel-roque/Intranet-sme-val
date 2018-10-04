@@ -4,15 +4,17 @@ Facilitando o acesso de informação de cada setor, seus respectivos membros, ca
 Além dos ramais internos da SME.
 
 ![apm](https://img.shields.io/badge/status-move--to--bitbucket-green.svg?longCache=true&style=for-the-badge)
-# Preview
-## Home
 
-![home](https://i.imgur.com/zQrN3Xn.jpg)
+# Final View
 
-## Page View
+### Home
+![index](https://i.imgur.com/3k5IaM0.png)
 
-![pgv](https://i.imgur.com/FLBHtsV.jpg)
+### Ramal
+![ramal](https://i.imgur.com/5w572UF.png)
 
-## Ramal
+### Links
+![links](https://i.imgur.com/X1FCmG3.png)
 
-![rml](https://i.imgur.com/GxhvDcN.jpg)
+###
+![setor](https://i.imgur.com/QCUyKBq.png)
